@@ -1,6 +1,28 @@
 body{
     margin: 0;
     padding: 0;
-   
-   
+   background: url(../imagenes/Espacio.jpeg) no-repeat center top;
+   background-size: cover;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100 vh;
+}
+
+.inicio_sesion{
+    width: 400 px;
+    height: 500 px;
+    background-color: red;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70 px 40 px;
+}
+
+.inicio_sesion .logo{
+
+
+
+    
 }
