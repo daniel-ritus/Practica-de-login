@@ -8,8 +8,8 @@ body{
 }
 
 .inicio_sesion{
-    width: 400 px;
-    height: 500 px;
+    width: 400px;
+    height: 500px;
     background-color: red;
     color: white;
     top: 50%;
@@ -17,12 +17,15 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70 px 40 px;
+    padding: 70px 40px;
 }
 
 .inicio_sesion .logo{
-
-
-
-
+    width: 200px;  
+    height: 200px;
+    position: absolute;/*Es para que sea adelante*/
+    border-radius: 50%; /*Es para el circulo*/
+    top: -80px; /*Esa y la otra linea de codigo es para la posición del logo*/
+    left: calc(50% -80px);
 }
+
