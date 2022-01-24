@@ -23,7 +23,7 @@ body{
 .inicio_sesion .logo{
     width: 200px;  
     height: 200px;
-    position: absolute;/*Es para que sea adelante*/
+    position: absolute;/*Es para que sea adelante bien melito*/
     border-radius: 50%; /*Es para el circulo*/
     top: -80px; /*Esa y la otra linea de codigo es para la posición del logo*/
     left: calc(50% -80px);
