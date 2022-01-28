@@ -1,31 +1,58 @@
 body{
-    margin: 0;
-    padding: 0;
-   background: url(../imagenes/Espacio.jpeg) no-repeat center top;
-   background-size: cover;
-   font-family: Arial, Helvetica, sans-serif;
-   height: 100 vh;
+    margin: 0;  /*Tengo una imagen que lo explica, esta en imagenes*/
+    padding: 0; /*Tengo una imagen que lo explica, esta en imagenes*/
+   background: url(../imagenes/Espacio.jpeg) no-repeat center top; /*Es para que la imagen sea centrada y no se repita*/
+   background-size: cover; /*Para que el tamaño se ajuste*/
+   font-family: Arial, Helvetica, sans-serif; /*Es el tipo de letra a utilizar */
+   height: 100vh;/*Es lo alto del dispotivo */
 }
 
 .inicio_sesion{
-    width: 400px;
-    height: 500px;
-    background-color: red;
-    color: white;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 40px;
+    width: 400px;/*Ancho*/
+    height: 500px; /*Alto*/
+    background-color: red; /*El tipo de color del fondo*/
+    color: white; /*El tipo de letra*/
+    top: 50%; /*Abajo y es para centrar*/
+    left: 50%; /*Arriba y es para centrar*/
+    position: absolute; /*Es la posición para que se ponga adelante*/
+    transform: translate(-50%, -50%); /*Es para centrar el formulario, primero es en x y luego en y*/
+    box-sizing: border-box; /*Relleno en el borde en lo ancho y alto*/
+    padding: 70px 40px;/*Es posición del borde, el primero es de arriba hacia abajo y el segundo de derecha a izquierda*/
 }
 
 .inicio_sesion .logo{
     width: 200px;  
     height: 200px;
     position: absolute;/*Es para que sea adelante bien melito*/
-    border-radius: 50%; /*Es para el circulo*/
+    border-radius: 50%; /*Es para el circulo, es el porcentaje del radio*/
     top: -80px; /*Esa y la otra linea de codigo es para la posición del logo*/
-    left: calc(50% -80px);
+    left: calc(50% - 120px); /*Es más facil añadir margenes a un objeto en determinadas circunstacias*/
 }
 
+.inicio_sesion h1{
+    margin: 0;
+    padding: 0 0 40px;/*El ultimo numero solamente significa que manda hay espacio hacia abajo*/
+    font-size: 50px; /*El tamaño de la letra*/
+    text-align: center; /*Alineación de la letra*/
+}
+
+
+.inicio_sesion label{
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: bold; /*Para engrosar la letra*/
+    display:block; /*Que sea solo una linea*/
+}
+
+.inicio_sesion input{
+    margin: 0;
+    padding: 0;
+    font-weight: bold; /*Para engrosar la letra*/
+    display:block; /*Que sea solo una linea*/
+}
+
+/*
+.inicio_sesion boton
+    margin: 0;
+    padding: 0 10px 0;
+}*/
