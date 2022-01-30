@@ -39,20 +39,43 @@ body{
 
 .inicio_sesion label{
     margin: 0;
-    padding: 0 0 10px;
+    padding: 0 0 15px;
     font-weight: bold; /*Para engrosar la letra*/
     display:block; /*Que sea solo una linea*/
+    font-size: 20px;
 }
 
-.inicio_sesion input{
-    margin: 0;
-    padding: 0;
-    font-weight: bold; /*Para engrosar la letra*/
-    display:block; /*Que sea solo una linea*/
+.inicio_sesion input{ /*Para que sea más generalizado de todo lo que input, incluyendo el tipo boton*/
+    width: 100%; /*Para que cubra toda cobertura, en ese caso todo el div*/
+    height: 30px;
+    margin-bottom: 35px;
 }
 
-/*
-.inicio_sesion boton
-    margin: 0;
-    padding: 0 10px 0;
-}*/
+.inicio_sesion input[type="password"], 
+.inicio_sesion input[type="text"]{
+    border: none; /*que no tenga borde*/
+    border-bottom: 2px solid #000; /*El borde del boton pero en la parte de abajo y que sea de color negro, se puede escribir por el nombre o por #*/
+    background: transparent; /*Que el fondo sea de color transparente*/
+    outline: none; /*Que no tenga contorno*/
+    height: 25px; /*La altura*/
+    color:black; /*El color pero del texto que esta de transparente*/
+    font-size: 20px; /*El tamaño de la letra*/
+    
+}
+.inicio_sesion input::placeholder{ /*Es la parte transparente, le estoy dando color y forma*/
+    color: black;
+    font-style: italic;
+}
+
+.inicio_sesion input[type="submit"]{
+  
+    border: 4px solid black;
+   
+    background-color: blue;
+    height: 50px;
+    font-size: 25px;
+}
+
+.inicio_sesion a{
+    color:#000;
+}
